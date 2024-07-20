@@ -113,6 +113,10 @@ margin-left: 12px;
 .btn-link{
   text-decoration: none;
 }
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper{
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+}
 hr{
   margin-top: 14px;
   height: 2px;
@@ -164,7 +168,7 @@ hr{
   align-items: center;
   justify-content: center;
   padding: 0.2rem;
-  margin:10px;
+  margin-right:10px;
   background-color:transparent;
   outline: none;
   border: 1px solid #1c1c21;
@@ -393,6 +397,7 @@ hr{
 .about-contact-right button{
   margin: 15px 5px;
 }
+.about-head-button,
 .service-head-button,
 .portfolio-head-button{
   display: flex;
@@ -403,7 +408,7 @@ hr{
   margin-right: 35px;
 }
 .service-overview p{
-  font-size: 0.7rem;
+  font-size: 0.85rem;
   text-align: justify;
   font-weight: 400;
 }
@@ -413,7 +418,7 @@ hr{
 }
 
 .service-highlight-container{
-  margin-top: 40px;
+  margin-top: 22px;
 }
 .service-highlight-container p{
   margin-bottom: 15px;
@@ -439,6 +444,9 @@ hr{
 }
 .service-container .carousel .slide{
   text-align: left;
+}
+.carousel .services-slide{
+  margin: 0 8px;
 }
 .carousel .slide .list img{
   width: 1.4rem;

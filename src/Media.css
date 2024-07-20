@@ -109,9 +109,6 @@
     .about-image{
       margin: 0 0 30px 0;
     }
-    /* .about-introduction, .about-contact-info{
-      padding: 35px 20px;
-    } */
     .about-intro h3{
       font-weight: 500;
       margin-bottom:12px;
@@ -294,14 +291,14 @@
     }
     .journey-info{
         display: block;
-      
+        
     }
     .journey{
         margin-bottom: 15px;
-        width: 90%;
+        width: 100%;
     }
     .journey p{
-      font-size: 0.8rem;
+      font-size: 0.82rem;
     }
     .our-service,
     .service-details{

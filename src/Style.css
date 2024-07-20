@@ -62,11 +62,13 @@ margin-top: 30px;
 }
 .intro-column-div{
     display: flex;
+
 }
 .intro-column{
+    align-items: center;
     background-color: #0e0e10;
     color: #fff;
-    padding: 25px 15px 10px;
+    padding:25px;
     margin: 0 5px;
     width: 175px;
     border-radius: 20px;
@@ -113,13 +115,14 @@ margin-top: 30px;
 .journey-info{
     display: grid;
     grid-template-columns: repeat(2, auto);
+    justify-content: center;
     gap: 15px;
     margin-top: 50px;
 }
 .journey{
     background: #0e0e10;
     color: #fff;
-    padding: 25px;
+    padding: 20px;
     border-radius: 20px;
     height: 150px;
 }

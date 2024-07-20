@@ -68,7 +68,14 @@ const Navbar = ({toggleTheme, theme}) => {
           <HiOutlineBars3 onClick={() => setOpenMenu(true)}/>
         </div>
         <Drawer open={openMenu} onClick={() => setOpenMenu(false)}
-          anchor='right'>
+          anchor='right'
+          sx={{ '& .MuiDrawer-paper':{
+             backgroundColor : 'var(--background-color)',
+            color : 'var(--primary-text-color)'
+          },
+           
+          }}
+          >
             <Box
             sx={{width : 250}}
             role='presentation'
@@ -84,7 +91,7 @@ const Navbar = ({toggleTheme, theme}) => {
                   </ListItem>
                 ))}
               </List>
-              {/* <div className='toggle-btn'>
+              <div className='toggle-btn'>
             <Switch
             onChange={handleSwitch}
             checked={theme === 'dark'}
@@ -98,7 +105,7 @@ const Navbar = ({toggleTheme, theme}) => {
             width={70}
             height={32}
             />
-            </div> */}
+            </div>
             </Box>
         </Drawer>
 

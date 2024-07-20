@@ -15,7 +15,7 @@ const About = () => {
                 <h2 className='subheading'>I AM KLENZ</h2>
             </div>
             <div className='about-head-button'>
-                <Link smooth to="/about" className='primary-btn btn-link'> Know More -{'>'}</Link>
+            <Link to="/about" className='primary-btn btn-link'> Know More -{'>'}</Link>
             </div>
         </div>
         <hr />
