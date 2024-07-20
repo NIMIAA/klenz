@@ -83,7 +83,7 @@ const Portfoliocards = () => {
                 <img src={Next}/>
                 </div>
             </div>
-            <Link to="/services" className='primary-btn btn-link'> View All Works -{'>'}</Link>
+            <Link to="/portfolio" className='primary-btn btn-link'> View All Works -{'>'}</Link>
             </div>
         </div>
         <hr />
