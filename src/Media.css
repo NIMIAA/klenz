@@ -1,0 +1,352 @@
+/* :root{
+    --background-color: #fbfaff;
+    --primary-text-color:#515151;
+    --grey-text-color:#cacad0;
+    --grey-background:#1c1c21;
+    --white-text:#e4e4e6;
+    --button-background-black:#13131c;
+  }
+  [data-theme='dark']{
+    --background-color: #070708;
+    --grey-text-color:#cacad0;
+    --white-text:#131316;
+  } */
+
+@media(max-width:800px){
+    .navbar{
+      width: 90vw;
+      border-left: 1px solid;
+      border-right: 1px solid;
+      padding: 0 0 0 10px;
+    }
+    hr{
+      margin-top: 0;
+    }
+    .nav-logo{
+      width: 30vw;
+      padding-bottom: 20px;
+    }
+    .nav-logo-link{
+      font-size: 17px;
+    }
+    .navbar-links-container{
+      display: none;
+    }
+    .navbar-sidemenu{
+      display: flex;
+      cursor: pointer;
+      border-top: 1px solid;
+      border-left:1px solid;
+      border-radius: 15px 0 0 0;
+      padding: 1rem;
+    }
+    .homepage{
+      display: block;
+
+    }
+    .homepage-left-text{
+      margin: 40px 20px;
+    }
+    .homepage-background-image{
+      display: none;
+    }
+    .homepage-image{
+      display: none;
+    }
+    .homepage-image-mobile{
+      display: block;
+      width: 100%;
+      height: 40vh;
+      margin: 20px;
+      
+    }
+    .homepage-image-mobile img{
+      height:100%;
+      width: 90vw;
+    }
+    .homepage-label{
+      display: none;
+    }
+    .about-container,
+    .service-container,
+    .portfolio-container,
+    .testimonial-container,
+    .frequentlyAsked-container,
+    .biography-container,
+    .journey-container,
+    .services-container,
+    .contact-form-container{
+      margin: 90px 30px;
+    }
+    .about-head,
+    .service-head,
+    .portfolio-head,
+    .testimonial-head,
+    .frequentlyAsked-head{
+      display: block;
+    }
+    .about-head-text,
+    .service-head-text,
+    .portfolio-head-text,
+    .testimonial-head-text,
+    .frequentlyAsked-head-text{
+      margin-bottom: 18px ;
+    }
+    .about-head-button,
+    .service-head-button,
+    .portfolio-head-button,
+    .testimonial-head-button{
+      margin-bottom: 15px;
+    }
+    .about-info,
+    .service-info,
+    .portfolio-info,
+    .testimonial-info,
+    .frequentlyAsked-info{
+      display: block;
+      margin: 40px 0;
+    }
+    .about-image{
+      margin: 0 0 30px 0;
+    }
+    /* .about-introduction, .about-contact-info{
+      padding: 35px 20px;
+    } */
+    .about-intro h3{
+      font-weight: 500;
+      margin-bottom:12px;
+      font-size: 1.3rem;
+    
+    }
+    .about-intro p{
+      font-size: 0.85rem;
+      font-weight: 400;
+      line-height: 1.3rem;
+      text-align: justify;
+    }
+    .about-contact{
+      display: block;
+      
+    }
+    .about-contact-right{
+      width: 100%;
+      margin-top: 12px;
+    }
+     .about-contact-right button{
+      width: 100%;
+      margin: 10px 5px;
+     }
+     .about-contact-right p, .about-contact-left p{
+      font-size: 0.95rem;
+      width: 100%;
+      font-weight: 300;
+      letter-spacing: 0.05rem;
+     }
+     .service-image{
+      margin: 30px 0;
+     }
+     .service-overview{
+      margin-right: 0;
+    }
+    .list li{
+      font-size: 0.9rem;
+      
+    }
+    .list img{
+      width: 1.6rem;
+    }
+    .portfolio-card{
+      margin: 0;
+    }
+    .mobile-view-slide,
+    .question-on-right{
+      display: none;
+    }
+    .testimonial-bottom{
+      margin: 130px 0 0;
+      text-align:center;
+    }
+    .klenz-logo-text{
+      font-size: 2.2rem;
+      font-weight: 500;
+      color: #62646c;
+    }
+      .review-highlight{
+        padding:30px;
+        margin:0;         
+        width: 100%;
+  }
+  
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    
+  }
+  .footer-container{
+    height: 100vh;
+    width: 90%;
+    border-left: 1px solid;
+    border-right: 1px solid;
+  }
+  .footer-edge{
+    display: none;
+  }
+  .footer-main{
+    display: block;
+    
+  }
+  .footer-left{
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .footer-right{
+    display:block;
+    font-size: 0.8rem;
+  }
+  .footer-right-link{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+  }
+  .right-links{
+    margin: 0 48px 0 0;
+  }
+  .right-links a{
+    text-decoration: underline;
+  }
+  .footer-foot{
+    display: block;
+    width: 100%;
+    margin: 0;
+   text-align: center;
+  }
+  .footer-foot-left{
+  margin-bottom: 8px;
+  }
+  .aboutpage-intro-image,
+    .aboutpage-intro-bottom,
+    .portfoliopage-intro-image,
+    .potfoliopage-intro-bottom,
+    .servicepage-intro-image,
+    .servicepage-intro-bottom,
+    .contactpage-intro-image,
+    .contactpage-intro-bottom{
+        display: none;
+    }
+    .aboutpage-intro-image-proper,
+    .portfoliopage-intro-image-proper,
+    .servicepage-intro-image-proper,
+    .contactpage-intro-image-proper{
+        display: block;
+    }
+    .aboutpage-intro-image-proper img,
+    .portfoliopage-intro-image-proper img,
+    .servicepage-intro-image-proper img,
+    .contactpage-intro-image-proper img{
+        width: 90%;
+        margin: 20px 25px;
+    }
+    .aboutpage-intro-top,
+    .portfoliopage-intro-top,
+    .servicepage-intro-top,
+    .contactpage-intro-top{
+        position: static;
+        margin: 0 20px;
+    }
+    .aboutpage-intro-text{
+        margin-left: 20px;
+    }
+    .aboutpage-intro-text h2{
+        font-size: 27px;
+    }
+    .portfoliopage-intro-text h2{
+        font-size: 27px;
+        margin-bottom: 10px;
+    }
+    .servicepage-intro-text h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .portfoliopage-intro-text{
+        padding-right: 0;
+    }
+    .servicepage-intro-text{
+        padding-left: 0;
+    }
+    .contactpage-intro-text{
+        margin: 0;
+        padding-right: 0;
+        
+    }
+    .contactpage-intro-text p{
+        margin-top: 30px;
+    }
+    .intro-column-div{
+        display: block;
+        
+    }
+    .intro-column{
+        margin-bottom: 15px;
+        width: 200px;
+    }
+    .journey-info{
+        display: block;
+      
+    }
+    .journey{
+        margin-bottom: 15px;
+        width: 90%;
+    }
+    .journey p{
+      font-size: 0.8rem;
+    }
+    .our-service,
+    .service-details{
+        display: block;
+    }
+    .service-details{
+        margin: 25px 0;
+    }
+    .booking h1{
+        flex: 1;
+    }
+    .service-about{
+        width: 100%;
+    }
+    .service-about p{
+        padding-right:0;
+    }
+    .service-details .service-highlight-container{
+        width: 100%;
+    }
+    .contact-information,
+    .send-message{
+        display:block;
+    }
+    .contact-info-text,
+    .send-message-text{
+        width: 100%;
+        margin-bottom: 20px;
+}
+    .contact-info-link{
+        display:block;
+    }
+    .contact-info-link div{
+        margin-top: 10px;
+    }
+    .send-message form{
+        width: 100%;
+    }
+    .contact-form-input{
+        display: block;
+    }
+    .contact-form-input div{
+        margin-top:20px ;
+    }
+    .send-button{
+        width: 55%;
+    }
+  }

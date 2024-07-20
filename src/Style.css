@@ -1,0 +1,236 @@
+
+.aboutpage-intro,
+.portfoliopage-intro,
+.servicepage-intro,
+.contactpage-intro{
+    position: relative;
+}
+.aboutpage-intro-image,
+.portfoliopage-intro-image,
+.servicepage-intro-image,
+.contactpage-intro-image{
+    margin: 50px 80px;
+}
+.aboutpage-intro-image-proper,
+.portfoliopage-intro-image-proper,
+.servicepage-intro-image-proper,
+.contactpage-intro-image-proper{
+    display: none;
+}
+.aboutpage-intro-top,
+.portfoliopage-intro-top,
+.servicepage-intro-top{
+    position: absolute;
+    display: block;
+    top:0;
+    width: 90vw;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.aboutpage-intro-text,
+.portfoliopage-intro-text{
+    margin: 0 0 20px 25px;
+}
+.portfoliopage-intro-text{
+    padding-right: 350px;
+    text-align: justify;
+}
+.servicepage-intro-text{
+    padding-left: 170px;
+    text-align: justify;
+}
+.contactpage-intro-text{
+    flex: 1;
+    margin: 100px 80px;
+    padding-right: 250px;
+    text-align: justify;
+}
+.contactpage-intro-text p{
+margin-top: 30px;
+}
+.aboutpage-intro-text h2,
+.portfoliopage-intro-text h2,
+.servicepage-intro-text h2{
+    font-size: 37px;
+}
+.aboutpage-intro-columns{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    left:0;
+}
+.intro-column-div{
+    display: flex;
+}
+.intro-column{
+    background-color: #0e0e10;
+    color: #fff;
+    padding: 25px 15px 10px;
+    margin: 0 5px;
+    width: 175px;
+    border-radius: 20px;
+}
+.intro-column p{
+    font-size: 0.7rem;
+}
+
+.aboutpage-intro-bottom{
+    display: flex;
+    align-items: center;
+    margin: 250px 20px 20px;
+}
+.potfoliopage-intro-bottom{
+    display: flex;
+    align-items: center;
+    margin: 330px 20px 20px;
+}
+.servicepage-intro-bottom{
+    display: flex;
+    align-items: center;
+    margin: 370px 20px 20px;
+}
+.intro-bottom-icon{
+    flex: 1;
+}
+.intro-bottom-text{
+    flex: -1;
+    position: absolute;
+    right: 9%;
+}
+.biography-container{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 50px 0;
+    /* margin: 20px 50px; */
+}
+.biography-head{
+    margin-bottom: 15px;
+}
+.biography-body{
+    font-size: 16px;text-align: justify;
+}
+.journey-info{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 15px;
+    margin-top: 50px;
+}
+.journey{
+    background: #0e0e10;
+    color: #fff;
+    padding: 25px;
+    border-radius: 20px;
+    height: 150px;
+}
+.journey h3{
+    margin-bottom: 10px;
+}
+.journey p{
+    font-size: 0.9rem;
+}
+.portfolio-section{
+    margin: 30px 0;
+}
+.services-container{
+    padding: 20px 0;
+}
+.our-service,
+.service-details,
+.booking{
+    display: flex;
+    align-items: center;
+}
+.booking h1{
+    margin-right: 10px;
+}
+.our-service{
+    padding-top: 20px;
+}
+.service-about{
+    width: 50%;
+}
+.service-about p{
+    margin: 30px 0;
+    padding-right:20px;
+}
+.service-about-image{
+    position: relative;
+    margin:30px 0;
+}
+.service-price{
+    flex: 1;
+}
+.service-details .service-highlight-container{
+    width: 60%;
+}
+.contactpage-intro-top{
+    position: absolute;
+    display: flex;
+    top:11%;
+    width: 93vw;
+}
+.contactpage-intro-bottom{
+height: 80vh;
+}
+.contact-bottom-text{
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+}
+.contact-information{
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+
+}
+.send-message{
+    display: flex;
+    margin: 40px 0;
+}
+.contact-info-text,
+.send-message-text{
+    width: 35%;
+    margin-right: 30px;
+    text-align: justify;
+}
+.contact-info-link{
+    display: flex;
+}
+.contact-info-link a{
+    border-bottom: 1px solid;
+    text-decoration: none;
+    margin-right:20px;
+    padding-bottom: 5px;
+    color: var(--primary-text-color);
+}
+.send-message form{
+    width: 60%;
+}
+.contact-form-input{
+    display: grid;
+    grid-template-columns:repeat(2, auto) ;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--primary-text-color);
+    margin-top: 20px;
+    font-size: 15px;
+    outline: none;
+    color: var(--primary-text-color);
+}
+input::placeholder{
+    font-size: 10px;
+}
+.send-button{
+    display: flex;
+    align-items: end;
+    border-bottom: 1px solid;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    width: 40%;
+}
